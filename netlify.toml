@@ -10,3 +10,9 @@
 
   [plugins.inputs]
     enable = false
+
+[[redirects]]
+  from = "http://beta.morag.click"
+  to = "http://app.morag.click"
+  status = 301
+  force = true
