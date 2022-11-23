@@ -12,11 +12,6 @@
     enable = false
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
   from = "http://beta.morag.click/*"
   to = "http://app.morag.click/:splat"
   status = 301
@@ -27,3 +22,8 @@
   to = "https://app.morag.click/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
