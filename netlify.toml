@@ -12,13 +12,13 @@
     enable = false
 
 [[redirects]]
-  from = "http://beta.morag.click"
-  to = "http://app.morag.click"
+  from = "http://beta.morag.click/*"
+  to = "http://app.morag.click/*"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://beta.morag.click"
-  to = "https://app.morag.click"
+  from = "https://beta.morag.click/*"
+  to = "https://app.morag.click/*"
   status = 301
   force = true
