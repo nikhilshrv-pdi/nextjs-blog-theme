@@ -24,12 +24,12 @@
   force = true
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
   from = "https://app.morag.click/test/*"
   to = "https://app.morag.click/test1/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
